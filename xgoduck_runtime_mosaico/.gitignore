@@ -1,0 +1,11 @@
+/build/
+/.vscode/
+/managed_components/
+/sdkconfig
+/sdkconfig.old
+/build_result.log
+/tests/*.dll
+/tests/*.obj
+/tests/*.lib
+/tests/*.exp
+__pycache__/

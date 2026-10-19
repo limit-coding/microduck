@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22)
+set(IDF_TARGET esp32s31 CACHE STRING "Target chip")
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(s31_duck_rl)
+if(NOT IDF_VERSION_MAJOR EQUAL 6 OR NOT IDF_VERSION_MINOR EQUAL 1)
+    message(FATAL_ERROR "This project requires ESP-IDF 6.1.x (tested with 6.1.0)")
+endif()

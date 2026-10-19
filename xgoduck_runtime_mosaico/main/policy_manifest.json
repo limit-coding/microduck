@@ -1,0 +1,22 @@
+{
+  "model": "xgoduck_walk.onnx",
+  "sha256": "fcab16d78e50b10e41368a5ca6aea282f71475f383d08b95e83a27ec27f41b0d",
+  "input": [
+    1,
+    61
+  ],
+  "output": [
+    1,
+    14
+  ],
+  "architecture": [
+    61,
+    512,
+    256,
+    128,
+    14
+  ],
+  "activation": "ELU alpha=1",
+  "weight_floats": 197896,
+  "weight_bytes": 791584
+}

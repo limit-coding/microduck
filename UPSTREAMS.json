@@ -1,0 +1,21 @@
+{
+  "imported_on": "2026-10-19",
+  "components": {
+    "xgoduck_hardware": {
+      "source": "https://github.com/LuwuDynamics/xgoduck_hardware.git",
+      "commit": "27da83ac624f99f0ccfd8552edc7b59b7ac069b4"
+    },
+    "xgoduck_rl": {
+      "source": "https://github.com/LuwuDynamics/xgoduck_rl.git",
+      "commit": "2fe84c7dd9ea9a5cf27d2cca08d8d77c57b22842"
+    },
+    "xgoduck_runtime_arduino": {
+      "source": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino.git",
+      "commit": "9dc36787bc61b102c2da0f97c9c758e639e90ab8"
+    },
+    "xgoduck_runtime_mosaico": {
+      "source": "https://github.com/LuwuDynamics/xgoduck_runtime_mosaico.git",
+      "commit": "e2fc679cbc9cb217ad0be7119e21763790434ff6"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+menu "Duck RL deployment"
+config DUCK_WIFI_SSID
+    string "Wi-Fi SSID"
+    default "XGO2"
+config DUCK_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default "LuwuDynamics"
+config DUCK_IP_UART_TX
+    int "UART0 IP report TX GPIO (115200 baud)"
+    range 0 60
+    default 15
+config DUCK_IP_UART_RX
+    int "UART0 IP report RX GPIO"
+    range 0 60
+    default 16
+config DUCK_ROBOT_UART_TX
+    int "UART1 robot TX GPIO"
+    range 0 60
+    default 46
+config DUCK_ROBOT_UART_RX
+    int "UART1 robot RX GPIO"
+    range 0 60
+    default 39
+config DUCK_WEB_PORT
+    int "HTTP port"
+    range 1 65535
+    default 80
+endmenu

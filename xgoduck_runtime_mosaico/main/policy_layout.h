@@ -1,0 +1,12 @@
+#pragma once
+#define POLICY_MEAN 0
+#define POLICY_DIV 61
+#define POLICY_W0 122
+#define POLICY_B0 31354
+#define POLICY_W1 31866
+#define POLICY_B1 162938
+#define POLICY_W2 163194
+#define POLICY_B2 195962
+#define POLICY_W3 196090
+#define POLICY_B3 197882
+#define POLICY_FLOATS 197896
